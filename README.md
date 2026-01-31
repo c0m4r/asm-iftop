@@ -4,7 +4,23 @@ A lightweight x86_64 assembly network monitor for GNU/Linux.
 
 Vibe coded with Claude 4.5 Opus (Thinking) via Google Antigravity.
 
-![Screenshot](docs/screenshot.png)
+```
+╔══════════════════════════════════════════════════════╗
+║              ASM-IFTOP Network Monitor               ║
+╠══════════════════════════════════════════════════════╣
+║  Interface: eth0                                     ║
+║  MAC:       ab:cd:ef:01:23:45                        ║
+║  IP:        192.168.0.69                             ║
+║  MTU:       1500                                     ║
+║  Speed:     1000 Mbps                                ║
+║  Driver:    e1000e                                   ║
+╠══════════════════════════════════════════════════════╣
+║  ▼ Download:     0.00 Mbps                           ║
+║    [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]    0%            ║
+║  ▲ Upload:       0.00 Mbps                           ║
+║    [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]    0%            ║
+╚══════════════════════════════════════════════════════╝
+```
 
 ## Features
 
