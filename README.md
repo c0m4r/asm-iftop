@@ -30,6 +30,16 @@ Vibe coded with Claude 4.5 Opus (Thinking) via Google Antigravity.
 - Clean exit with **q** key
 - Handles terminal resize gracefully
 
+## Quick install (x86_64 GNU/Linux)
+
+```bash
+wget https://github.com/c0m4r/asm-iftop/releases/download/v1.0/asm-iftop
+echo "13315343e4a8354a145cfd2b1cdc7408df7655e9c61b9edcfa57f74a6fa7bede  asm-iftop" | sha256sum -c || rm -f asm-iftop
+sudo mv asm-iftop /usr/local/bin/
+sudo chmod +x /usr/local/bin/asm-iftop
+asm-iftop
+```
+
 ## Build
 
 ```bash
